@@ -1,0 +1,15 @@
+Dropbox Integration Trial Project:
+
+ So basically this project follows the MVC architecture, though I didn't include model because it's not needed,
+ - The App/ folder: This contains the every about the application logic and the view template
+ - The Config Foldr: This folder doesn't do much, it holds the value of the default route when no path is specified, it also holds the value of the download folder
+ - The download folder: When the download button is clicked, a file get created and the file gotten from dropbox api is written to the created file
+ - The public folder: The folder houses the index.php file which is where everything begins
+ - The src folder: This folder contains the core classes
+ - The vendor folder houses the autoload.php file and composer folder, the folder is also where 3rd party packages resides
+
+
+Step to run:
+
+- Download the project to your local machine and unzip
+- visit the following url https://localhost/home

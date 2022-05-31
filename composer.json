@@ -1,0 +1,19 @@
+{
+  "name": "razaqofficial/dropbox",
+  "author": {
+    "name": "Abdurrazaq",
+    "email": "razaqofficial@gmail.com"
+  },
+  "description": "This is a trial project",
+  "keywords": ["Dropbox API", "Trial", "Php MVC"],
+  "autoload": {
+    "files": [
+      "App/helpers.php"
+    ],
+    "psr-4": {
+      "Core\\": "src/",
+      "App\\": "App/",
+      "Config\\": "Config/"
+    }
+  }
+}
